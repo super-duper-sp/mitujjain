@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1024089745071",
+    "firebase_url": "https://mitujjain-bdf39-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mitujjain-bdf39",
+    "storage_bucket": "mitujjain-bdf39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024089745071:android:9bb6da08c4d12bfca9565a",
+        "android_client_info": {
+          "package_name": "com.example.mit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024089745071-q0k0l6arvi6g8m30gfrdoqehaulalv25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHl0HTYJICSBrtyWbTYWpkZ6OtsUAoe_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024089745071-q0k0l6arvi6g8m30gfrdoqehaulalv25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024089745071:android:986e70b57567bf41a9565a",
+        "android_client_info": {
+          "package_name": "com.example.mitujjain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024089745071-q0k0l6arvi6g8m30gfrdoqehaulalv25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHl0HTYJICSBrtyWbTYWpkZ6OtsUAoe_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024089745071-q0k0l6arvi6g8m30gfrdoqehaulalv25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
