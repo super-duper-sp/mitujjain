@@ -6,7 +6,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="390dp"
-        android:layout_height="97dp"
+        android:layout_height="115dp"
         android:layout_margin="5dp">
 
 
@@ -23,8 +23,8 @@
         -->
 
         <RelativeLayout
-            android:layout_width="391dp"
-            android:layout_height="102dp">
+            android:layout_width="wrap_content"
+            android:layout_height="121dp">
 
             <!--ImageVIew to display our Course Image-->
 
@@ -35,10 +35,10 @@
 
             <ImageView
                 android:id="@+id/studentPic"
-                android:layout_width="98dp"
-                android:layout_height="87dp"
+                android:layout_width="94dp"
+                android:layout_height="88dp"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="30dp"
                 android:contentDescription="@string/app_name"
                 android:padding="5dp"
                 android:src="@drawable/graduate" />
@@ -49,10 +49,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="2dp"
+                android:layout_marginStart="4dp"
 
-                android:layout_marginTop="9dp"
-                android:layout_marginEnd="22dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="20dp"
                 android:layout_toEndOf="@id/studentPic"
                 android:textAlignment="viewStart"
                 android:textColor="@color/black"
@@ -65,9 +65,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/studentName"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="9dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="8dp"
                 android:layout_toEndOf="@id/studentPic"
                 android:drawablePadding="2dp"
                 android:textAlignment="viewStart" />
@@ -78,13 +78,38 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/studentBranch"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="4dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="18dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="17dp"
                 android:layout_toEndOf="@id/studentPic"
                 android:drawablePadding="2dp"
                 android:textAlignment="viewStart" />
 
+            <TextView
+                android:id="@+id/studentEnrol"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/studentYear"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="16dp"
+                android:layout_toEndOf="@id/studentPic"
+                android:drawablePadding="2dp"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:id="@+id/studentSec"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginEnd="108dp"
+                android:layout_marginBottom="6dp"
+                android:drawablePadding="2dp"
+                android:textAlignment="viewStart" />
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

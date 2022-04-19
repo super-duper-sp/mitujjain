@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.RecyclerView
 
 
@@ -24,6 +23,8 @@ class MyAdapter(private val userlist: ArrayList<User>): RecyclerView.Adapter <My
         holder.name.text=currentitem.name
         holder.branch.text=currentitem.branch
         holder.year.text=currentitem.year
+        holder.enrol.text=currentitem.enrol
+        holder.sec.text=currentitem.sec
     }
 
     override fun getItemCount(): Int {
@@ -36,6 +37,8 @@ class MyAdapter(private val userlist: ArrayList<User>): RecyclerView.Adapter <My
     val name :TextView= itemView.findViewById(R.id.studentName)
     val branch :TextView= itemView.findViewById(R.id.studentBranch)
     val year :TextView= itemView.findViewById(R.id.studentYear)
+        val enrol :TextView= itemView.findViewById(R.id.studentEnrol)
+        val sec :TextView= itemView.findViewById(R.id.studentSec)
     }
 
 

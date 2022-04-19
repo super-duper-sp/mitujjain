@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         list.add(R.drawable.coding)
         list.add(R.drawable.zest4fest)
+        list.add(R.drawable.techexpo)
 
 
         rv=findViewById(R.id.viewpager)

@@ -14,7 +14,8 @@
         <entry key="app/src/main/res/layout/gallery_item.xml" value="0.21510416666666668" />
         <entry key="app/src/main/res/layout/list_image.xml" value="0.1" />
         <entry key="app/src/main/res/layout/teacher_item.xml" value="0.2748196072048611" />
-        <entry key="app/src/main/res/layout/user_item.xml" value="0.5722869873046875" />
+        <entry key="app/src/main/res/layout/user_item.xml" value="0.4558189655172414" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>
